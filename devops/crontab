@@ -1,1 +1,1 @@
-*/5 * * * * /bin/bash /home/atomicpi/dns_warmer/devops/dns_warmer.sh
+*/5 * * * * ionice -c idle nice -19 /bin/bash /home/atomicpi/dns_warmer/devops/dns_warmer.sh
